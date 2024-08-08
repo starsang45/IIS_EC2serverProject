@@ -55,6 +55,7 @@ Steps to Connect Using RDP:
 4. Open the downloaded .rdp file. This will launch the Remote Desktop Connection application.
 5. When prompted, enter the username (usually Administrator) and password provided by AWS. If you don't have the password, click on Get Password to retrieve it using your key pair.
 6. Click OK to connect to the instance.
+![Screenshot 2024-08-06 164149](https://github.com/user-attachments/assets/6277eb58-52b3-4674-b613-204d8849d5f7)
    
 Step 3. Installing IIS and convert the instance into a web server
 
@@ -78,7 +79,7 @@ Step 5: Test the Deployment
 1. Open a web browser and enter the public IP address of your EC2 instance.
 2. If everything is configured correctly, you should see the IIS welcome page
 ![Screenshot 2024-08-06 165502](https://github.com/user-attachments/assets/37958d7e-4a28-4f6d-b07a-2bf4030ce899)
-![Screenshot 2024-08-06 164149](https://github.com/user-attachments/assets/6277eb58-52b3-4674-b613-204d8849d5f7)
+
 # Usage
 1. Web Application Hosting:
        Scenario: You have a web application built using ASP.NET or other technologies supported by IIS.
