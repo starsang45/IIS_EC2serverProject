@@ -1,0 +1,41 @@
+Log in to AWS Management Console:
+
+Go to the AWS Management Console and log in with your credentials.
+Navigate to EC2 Dashboard:
+
+In the services menu, select EC2 to open the EC2 Dashboard.
+Launch Instance:
+
+Click on the Launch Instance button.
+Choose an Amazon Machine Image (AMI):
+
+Select a Windows Server AMI. You can find Windows Server options in the Quick Start tab.
+Choose an Instance Type:
+
+Select an instance type that meets your requirements (e.g., t2.micro for free tier eligibility).
+Configure Instance Details:
+
+Configure the instance details as needed. Ensure you have selected the correct VPC and subnet. Make sure to choose a subnet that has internet access (public subnet) if you plan to access the instance via the internet.
+Add Storage:
+
+Add storage as needed. The default settings are usually sufficient for a basic Windows Server setup.
+Add Tags:
+
+Add tags to help identify your instance (optional).
+Configure Security Group:
+
+Create a new security group or select an existing one. Ensure the security group allows RDP traffic:
+Type: RDP
+Protocol: TCP
+Port Range: 3389
+Source: Select My IP to allow your IP address or choose Anywhere for a broader access (less secure).
+Review and Launch:
+
+Review your settings and click on Launch.
+Key Pair:
+
+When prompted, select an existing key pair or create a new one. Download the key pair file (.pem) if you create a new one. This is essential for accessing your instance.
+Launch Instance:
+
+Click on Launch Instances
+
